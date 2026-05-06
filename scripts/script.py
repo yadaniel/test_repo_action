@@ -1,6 +1,9 @@
 #!/bin/env python3
 
 from datetime import datetime
+import os
+
+os.makedirs("output", exist_ok=True)
 
 log_line = f"Last run: {datetime.utcnow().isoformat()} UTC\n"
 

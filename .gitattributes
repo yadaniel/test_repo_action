@@ -1,0 +1,10 @@
+*.log   text
+*.blog  -text
+*.foo   -text -diff
+*.bfoo  binary
+*.h     text eol=lf
+*.c     text eol=lf
+*.hpp   text eol=crlf
+*.cpp   text eol=crlf
+
+
